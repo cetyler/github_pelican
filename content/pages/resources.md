@@ -37,3 +37,17 @@ level training.
 Initially found Michael's website by listening to his podcasts.
 I have brought multiple of his training courses which has helped round out my
 Python knowledge.
+
+## Database
+
+### [Memorable SQL](https://payhip.com/b/oXJs)
+
+Jeff's book does a good job providing a good intro to SQL.
+He uses [PostgreSQL](https://www.postgresql.org/) which prior to reading his
+book, I thought it was too much effort to use a proper database.
+While [SQLite](https://sqlite.org/index.html) has it uses, using PostgreSQL
+enabled me to have my data at work on the server and I can access it from 
+multiple PCs.
+
+Jeff provides enough detail to do meaningful queries and shows how to create
+and structure a database. 
