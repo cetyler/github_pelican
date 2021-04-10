@@ -28,10 +28,13 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
+LINKS = (('Automate the Boring Stuff', 'https://automatetheboringstuff.com/'),
+         ('Practical Business Python', 'https://pbpython.com'),
+         ('Real Python', 'https://realpython.com'),
+         ('Talk Python to Me', 'https://talkpython.fm/'),
+         ('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('Pratical Business Python', 'https://pbpython.com'),)
+         ('Jinja2', 'http://jinja.pocoo.org/'),)
 
 # Social widget
 SOCIAL = (('LinkedIn', 'https://www.linkedin.com/in/christopheretyler'),
