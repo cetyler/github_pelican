@@ -2,10 +2,11 @@ PY?=python3
 PELICAN?=pelican
 PELICANOPTS=
 
-ONELEVELUPDIR = $(subst $(notdir $(CURDIR)),,$(CURDIR))
+#ONELEVELUPDIR = $(subst $(notdir $(CURDIR)),,$(CURDIR))
 BASEDIR=$(CURDIR)
 INPUTDIR=$(BASEDIR)/content
-OUTPUTDIR=$(ONELEVELUPDIR)/github_page
+#OUTPUTDIR=$(ONELEVELUPDIR)/github_page
+OUTPUTDIR=$(BASEDIR)/output
 CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
 
