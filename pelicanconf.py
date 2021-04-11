@@ -16,9 +16,11 @@ THEME = 'pelican-themes/pelican-bootstrap3'
 
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 PLUGIN_PATHS = ['pelican-plugins']
+
+from pelican_jupyter import markup as nb_markup
 PLUGINS = ['i18n_subsites',
            'sitemap',
-#           'pelican-ipynb.markup',
+           nb_markup,
           ]
 
 
@@ -42,7 +44,7 @@ LINKS = (('Automate the Boring Stuff', 'https://automatetheboringstuff.com/'),
 
 # Social widget
 SOCIAL = (('LinkedIn', 'https://www.linkedin.com/in/christopheretyler'),
-          ('github', 'https://github.com/cetyler'),)
+          ('GitHub', 'https://github.com/cetyler'),)
 
 DEFAULT_PAGINATION = 10
 
@@ -64,8 +66,8 @@ SITEMAP = {
 # Jupyter Notebook
 MARKUP = ('md', 'ipynb')
 
-IGNORE_FILES = [".ipynb_checkpoints"] 
-IPYNB_USE_METACELL = True
+IGNORE_FILES = ['.ipynb_checkpoints'] 
+IPYNB_MARKUP_USE_FIRST_CELL = True
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
