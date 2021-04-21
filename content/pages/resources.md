@@ -1,5 +1,6 @@
 Title: Resources
 Date: 2021-04-10
+Modified: 2021-04-20
 Author: Christopher
 
 ## Python
@@ -51,3 +52,11 @@ multiple PCs.
 
 Jeff provides enough detail to do meaningful queries and shows how to create
 and structure a database. 
+
+## Virtualization
+
+### [Memorable Docker](https://payhip.com/b/OwWT)
+
+Jeff's book does a good jab providing a good into to Docker.
+I like the fact that he is attempting to get you up and going while
+understanding potential security risks.
