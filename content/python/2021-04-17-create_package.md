@@ -1,5 +1,6 @@
 Title: How to Create a Python Package
 Date: 2021-04-17
+Modified: 2021-04-20 20:30
 Category: Python
 Tags: python, package
 Author: Christopher
@@ -26,6 +27,13 @@ do the following:
     $ pip3 install .
 
 I know that you can also use `pip3 install /git-repo-of-package` as well.
+The problem with this method is that I need to make sure that I am installing
+the right version.
+So prior to installing, I need to make sure the following:
+
+- Verify that I am in the `master` branch.
+
+- Make sure that I want the latest version, otherwise checkout an earlier.
 
 ## Create Python Package
 
@@ -87,6 +95,9 @@ This can be a great option for a lone developer that creates private Python
 packages.
 This is the method I plan on using at work since I am the only Python
 developer.
+
+The downside is that this may not work with a team unless you use a network
+drive/location.
 
 ## Miscellaneous
 
