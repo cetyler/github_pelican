@@ -12,7 +12,7 @@ TIMEZONE = 'America/Chicago'
 
 DEFAULT_LANG = 'en'
 
-THEME = 'pelican-themes/pelican-bootstrap3'
+THEME = 'pelican-themes/elegant'
 
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 PLUGIN_PATHS = ['pelican-plugins']
@@ -44,7 +44,9 @@ LINKS = (('Automate the Boring Stuff', 'https://automatetheboringstuff.com/'),
 
 # Social widget
 SOCIAL = (('LinkedIn', 'https://www.linkedin.com/in/christopheretyler'),
-          ('GitHub', 'https://github.com/cetyler'),)
+          ('GitHub', 'https://github.com/cetyler'),
+          ('RSS', 'https://cetyler.github.io/feeds/all.atom.xml')
+          )
 
 DEFAULT_PAGINATION = 10
 
@@ -71,3 +73,30 @@ IPYNB_MARKUP_USE_FIRST_CELL = True
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+# Default articles to draft
+DEFAULT_METADATA = {
+    'status': 'draft',
+}
+
+# Comments
+UTTERANCES_REPO = "cetyler/cetyler.github.io"
+UTTERANCES_LABEL = "Comments"
+UTTERANCES_FILTER = False
+UTTERANCES_THEME = "github-light"
+
+COMMENTS_INTRO="Leave your comments below."
+
+STATIC_PATHS = ['extra/robots.txt']
+
+EXTRA_PATH_METADATA = {
+    'extra/robots.txt': {'path': '/robots.txt'}
+}
+
+# Legal
+SITE_LICENSE = """
+&copy; Copyright 2021 by Christopher E. Tyler and licensed under a <a rel="license"
+  href="http://creativecommons.org/licenses/by/4.0/">
+  <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" />
+  Creative Commons Attribution 4.0 International License</a>.
+"""

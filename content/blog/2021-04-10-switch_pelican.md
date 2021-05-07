@@ -5,6 +5,8 @@ Category: Blog
 Tags: website, pelican, jekyll
 Author: Christopher
 Summary: Switch from Jekyll to Pelican.
+Status: published
+comment_id: switch-from-jekyll-to-pelican
 
 ## Why I Changed
 

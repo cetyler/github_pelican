@@ -2,6 +2,9 @@ Title: Resources
 Date: 2021-04-10
 Modified: 2021-04-20
 Author: Christopher
+Status: published
+comment_id: resources
+utterances_filter: on
 
 ## Python
 
