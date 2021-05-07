@@ -44,7 +44,9 @@ LINKS = (('Automate the Boring Stuff', 'https://automatetheboringstuff.com/'),
 
 # Social widget
 SOCIAL = (('LinkedIn', 'https://www.linkedin.com/in/christopheretyler'),
-          ('GitHub', 'https://github.com/cetyler'),)
+          ('GitHub', 'https://github.com/cetyler'),
+          ('RSS', 'https://cetyler.github.io/feeds/all.atom.xml')
+          )
 
 DEFAULT_PAGINATION = 10
 
