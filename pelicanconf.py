@@ -12,7 +12,7 @@ TIMEZONE = 'America/Chicago'
 
 DEFAULT_LANG = 'en'
 
-THEME = 'pelican-themes/pelican-bootstrap3'
+THEME = 'pelican-themes/elegant'
 
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 PLUGIN_PATHS = ['pelican-plugins']
@@ -78,3 +78,20 @@ IPYNB_MARKUP_USE_FIRST_CELL = True
 DEFAULT_METADATA = {
     'status': 'draft',
 }
+
+# Comments
+UTTERANCES_REPO = "jackdewinter/jackdewinter.github.io"
+UTTERANCES_LABEL = "Comments"
+UTTERANCES_FILTER = False
+UTTERANCES_THEME = "github-light"
+
+COMMENTS_INTRO="Leave your comments below."
+
+
+# Legal
+SITE_LICENSE = """
+&copy; Copyright 2021 by Christopher E. Tyler and licensed under a <a rel="license"
+  href="http://creativecommons.org/licenses/by/4.0/">
+  <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" />
+  Creative Commons Attribution 4.0 International License</a>.
+"""

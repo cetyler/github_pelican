@@ -6,6 +6,7 @@ Tags: python, pbpython, sidetable, Chris Moffit
 Author: Christopher
 Summary: Use Sidetable to summarize data.
 Status: published
+comment_id: sidetable
 
 Chris Moffit at [Practical Business Pyton](https://pbpython.com) created a
 pandas utility library called [sidetable](https://pbpython.com/sidetable.html).

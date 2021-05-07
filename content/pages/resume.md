@@ -1,5 +1,6 @@
 Title: My Resume
 Status: published
+comment_id: resume
 
 ## Summary
 
