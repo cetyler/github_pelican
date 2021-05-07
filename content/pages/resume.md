@@ -1,4 +1,5 @@
 Title: My Resume
+Status: published
 
 ## Summary
 

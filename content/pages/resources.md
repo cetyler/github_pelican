@@ -1,6 +1,7 @@
 Title: Resources
 Date: 2021-04-10
 Author: Christopher
+Status: published
 
 ## Python
 

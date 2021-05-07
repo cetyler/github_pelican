@@ -73,3 +73,8 @@ IPYNB_MARKUP_USE_FIRST_CELL = True
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+# Default articles to draft
+DEFAULT_METADATA = {
+    'status': 'draft',
+}
