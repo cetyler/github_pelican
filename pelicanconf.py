@@ -80,13 +80,18 @@ DEFAULT_METADATA = {
 }
 
 # Comments
-UTTERANCES_REPO = "jackdewinter/jackdewinter.github.io"
+UTTERANCES_REPO = "cetyler/cetyler.github.io"
 UTTERANCES_LABEL = "Comments"
 UTTERANCES_FILTER = False
 UTTERANCES_THEME = "github-light"
 
 COMMENTS_INTRO="Leave your comments below."
 
+STATIC_PATHS = ['extra/robots.txt']
+
+EXTRA_PATH_METADATA = {
+    'extra/robots.txt': {'path': '/robots.txt'}
+}
 
 # Legal
 SITE_LICENSE = """

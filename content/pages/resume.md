@@ -1,6 +1,7 @@
 Title: My Resume
 Status: published
 comment_id: resume
+utterances_filter: on
 
 ## Summary
 
