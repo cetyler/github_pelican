@@ -4,6 +4,8 @@ Category: Python
 Tags: python, package, pypi
 Author: Christopher
 Summary: How to setup a local PyPi repository to host local packages.
+comment_id: local-pypi
+Status: draft
 
 My previous [post]({filename}/python/2021-04-17-create_package.md) I went
 through created and built a Python package.

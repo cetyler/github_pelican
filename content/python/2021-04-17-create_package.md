@@ -5,6 +5,8 @@ Category: Python
 Tags: python, package
 Author: Christopher
 Summary: How to create a Python package and have a local repository.
+comment_id: create-python-package
+Status: published
 
 While I was listening
 [PythonBytes](https://pythonbytes.fm/episodes/show/228/supreme-court-decides-api-copyright-battle)
