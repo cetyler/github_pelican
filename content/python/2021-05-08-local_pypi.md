@@ -1,13 +1,13 @@
 Title: How to Setup Local PyPi Repository
-Date: 2021-05-08 20:00
+Date: 2021-05-09 15:00
 Category: Python
 Tags: python, package, pypi
 Author: Christopher
 Summary: How to setup a local PyPi repository to host local packages.
 comment_id: local-pypi
-Status: draft
+Status: published
 
-My previous [post]({filename}/python/2021-04-17-create_package.md) I went
+My previous [post]({filename}/python/2021-04-17-create_package.md), I went
 through created and built a Python package.
 Then I put that package in a local directory and showed how to install that
 package from pip.
@@ -56,7 +56,7 @@ Let's spin up the container:
 
     $ docker-compose up -d --build
 
-Now go to `http://localhost:8086` in your browser and you should see
+Now go to `http://localhost:8081` in your browser and you should see
 *Welcome to pypiserver!*.
 
 To verify that this works, I will use `flit` as I did in my previous 
@@ -101,7 +101,7 @@ For authentication, I will use
     $ apt install htpasswd
     $ htpasswd -sc htpasswd.txt username
 
-**Note** that `username` is the name how the user how needs access.
+**Note** that `username` is the name of the user how needs access.
 Repeat this for any additional users.
 Update `docker-compose.yml` to:
 
@@ -131,7 +131,7 @@ be able to update, download and list packages.
 
 ### Push Package to Private PyPi
 
-Now prior to push a new `podsearch` update, we need to update `~/.pypirc` to
+Now prior to pushing a new `podsearch` update, we need to update `~/.pypirc` to
 include the username and password for our private PyPi server.
 
     [distutils]
@@ -166,5 +166,5 @@ Instead of `localhost` put the hostname or IP address.
 
 Having a private PyPi server, I can put my packages in a centralize server and
 have all my computers on my network push/pull packages.
-This is a improvement over a local directory and once setup feels no different
+This is a improvement over a local directory and once set up feels no different
 to installing packages from PyPi.
