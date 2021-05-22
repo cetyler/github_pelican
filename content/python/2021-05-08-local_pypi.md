@@ -1,5 +1,6 @@
 Title: How to Setup Local PyPi Repository
 Date: 2021-05-09 15:00
+Modified: 2021-05-21 17:00
 Category: Python
 Tags: python, package, pypi
 Author: Christopher
@@ -98,7 +99,7 @@ Now create a dummy directory and install `podsearch`.
 For authentication, I will use 
 [htpasswd](https://github.com/pypiserver/pypiserver#apache-like-authentication-htpasswd).
 
-    $ apt install htpasswd
+    $ apt install apache2-utils
     $ htpasswd -sc htpasswd.txt username
 
 **Note** that `username` is the name of the user how needs access.
@@ -161,6 +162,11 @@ Create/open `~/.pip/pip.conf`
     trusted-host = localhost
 
 Instead of `localhost` put the hostname or IP address.
+Then run `pip config list` to verify that the above gets returned.
+
+    **Note** for Windows, create `pip.ini` file in `C:\Users\Username\pip`
+    instead.
+    The format of the file itself is the same.
 
 ## Conclusion
 
