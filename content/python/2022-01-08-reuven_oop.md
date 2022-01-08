@@ -1,10 +1,10 @@
 Title: Reuven Lerner's Object-orient Python
-Date: 2022-01-07
+Date: 2022-01-08
 Category: Python
 Tags: training, Reuven Lerner, oop, python
 Author: Christopher
 Summary: Review of Reuven's OOP Python self pace course.
-Status: draft
+Status: published
 
 ## Overview
 
@@ -49,9 +49,9 @@ The final exercise did a good job covering most of what Reuven covered in the
 course.
 I felt comfortable with the knowledge that I learn to complete the exercise.
 
-This course does not include tests to verify your work as that is what the
-solution videos are for.
-Also I believe there were not tests since I think Reuven assumes that you will
+This course does not include tests to verify your work instead there are
+solution videos.
+I believe there were not tests since I think Reuven assumes that you will
 also be using Jupyter Notebooks to work through the exercises.
 I instead created Python scripts and ran in the console.
 The final exercise, I created tests using pytest to ensure that I met the
@@ -61,7 +61,7 @@ requirements.
 
 Overall I think it was a good beginner course on Object-orient programming
 using Python.
-For me it was a good value as I purchase the course through Humble Bundle
+For me it was a good value as I purchased the course through Humble Bundle
 Python Super Power Bundle.
 This course was the first time that OOP clicked for me and the way I think.
 Finally I just simply enjoyed Reuven's teaching style.
