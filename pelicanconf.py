@@ -2,29 +2,31 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'Christopher Tyler'
-SITENAME = 'Christopher Tyler R&D Test Engineer'
-SITEURL = ''
+AUTHOR = "Christopher Tyler"
+SITENAME = "Christopher Tyler R&D Test Engineer"
+SITEURL = ""
 
-PATH = 'content'
+PATH = "content"
 
-TIMEZONE = 'America/Chicago'
+TIMEZONE = "America/Chicago"
 
-DEFAULT_LANG = 'en'
+DEFAULT_LANG = "en"
 
-THEME = 'pelican-themes/elegant'
+THEME = "pelican-themes/elegant"
 
-JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
-PLUGIN_PATHS = ['pelican-plugins']
+JINJA_ENVIRONMENT = {"extensions": ["jinja2.ext.i18n"]}
+PLUGIN_PATHS = ["pelican-plugins"]
 
 from pelican_jupyter import markup as nb_markup
-PLUGINS = ['i18n_subsites',
-           'sitemap',
-           nb_markup,
-          ]
+
+PLUGINS = [
+    "i18n_subsites",
+    "sitemap",
+    nb_markup,
+]
 
 
-BIND = ''
+BIND = ""
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -34,49 +36,48 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Automate the Boring Stuff', 'https://automatetheboringstuff.com/'),
-         ('Practical Business Python', 'https://pbpython.com'),
-         ('Real Python', 'https://realpython.com'),
-         ('Talk Python to Me', 'https://talkpython.fm/'),
-         ('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),)
+LINKS = (
+    ("Automate the Boring Stuff", "https://automatetheboringstuff.com/"),
+    ("Practical Business Python", "https://pbpython.com"),
+    ("Real Python", "https://realpython.com"),
+    ("Talk Python to Me", "https://talkpython.fm/"),
+    ("Pelican", "http://getpelican.com/"),
+    ("Python.org", "http://python.org/"),
+    ("Jinja2", "http://jinja.pocoo.org/"),
+)
 
 # Social widget
-SOCIAL = (('LinkedIn', 'https://www.linkedin.com/in/christopheretyler'),
-          ('GitHub', 'https://github.com/cetyler'),
-          ('RSS', 'https://cetyler.github.io/feeds/all.atom.xml')
-          )
+SOCIAL = (
+    ("LinkedIn", "https://www.linkedin.com/in/christopheretyler"),
+    ("GitHub", "https://github.com/cetyler"),
+    ("RSS", "https://cetyler.github.io/feeds/all.atom.xml"),
+)
 
 DEFAULT_PAGINATION = 10
 
 # Sitemap
 SITEMAP = {
-    'format': 'xml',
-    'priorities': {
-        'articles': 1,
-        'indexes': 0.5,
-        'pages': 0.5,
+    "format": "xml",
+    "priorities": {
+        "articles": 1,
+        "indexes": 0.5,
+        "pages": 0.5,
     },
-    'changefreqs': {
-        'articles': 'always',
-        'indexes': 'hourly',
-        'pages': 'monthly'
-    }
+    "changefreqs": {"articles": "always", "indexes": "hourly", "pages": "monthly"},
 }
 
 # Jupyter Notebook
-MARKUP = ('md', 'ipynb')
+MARKUP = ("md", "ipynb")
 
-IGNORE_FILES = ['.ipynb_checkpoints'] 
+IGNORE_FILES = [".ipynb_checkpoints"]
 IPYNB_MARKUP_USE_FIRST_CELL = True
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+# RELATIVE_URLS = True
 
 # Default articles to draft
 DEFAULT_METADATA = {
-    'status': 'draft',
+    "status": "draft",
 }
 
 # Comments
@@ -85,13 +86,11 @@ UTTERANCES_LABEL = "Comments"
 UTTERANCES_FILTER = False
 UTTERANCES_THEME = "github-light"
 
-COMMENTS_INTRO="Leave your comments below."
+COMMENTS_INTRO = "Leave your comments below."
 
-STATIC_PATHS = ['extra/robots.txt']
+STATIC_PATHS = ["extra/robots.txt"]
 
-EXTRA_PATH_METADATA = {
-    'extra/robots.txt': {'path': '/robots.txt'}
-}
+EXTRA_PATH_METADATA = {"extra/robots.txt": {"path": "/robots.txt"}}
 
 # Legal
 SITE_LICENSE = """
