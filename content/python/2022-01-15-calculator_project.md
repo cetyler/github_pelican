@@ -1,9 +1,9 @@
 Title: Calculator Project
 Date: 2021-11-15 14:30
-Category: Blog
+Category: Python
 Tags: python, project, library, package
 Author: Christopher
-Summary: Switch from Jekyll to Pelican.
+Summary: Use a simple calculator project to document my Python workflow.
 Status: draft
 
 ## Overview
@@ -38,12 +38,15 @@ In addition, will also do the following:
 - Document what is the minimum required for testing.
 - Document add the Python package to PyPi.
 
-## Conclusion
+## Next Steps
 
+The plan is to do a series of articles going through the my proposed roadmap.
 The goal is to use a simple project to help create a consistent workflow that I
 can use for my personal and professional projects.
 Ideally, use something like Cookiecutter to help create consistent projects.
 
-I did buy [Talk Python Modern Python Projects
+I did recently finished [Talk Python Modern Python Projects
 Course](https://training.talkpython.fm/courses/modern-python-projects) and will
-update my workflow based on the training.
+use what I learned to incorporate into my workflow.
+
+The next article will be the initial setup of the project.

@@ -1,7 +1,7 @@
 Title: Reuven Lerner's Object-orient Python
 Date: 2022-01-08
 Category: Python
-Tags: training, Reuven Lerner, oop, python
+Tags: training, Reuven Lerner, oop, python, review
 Author: Christopher
 Summary: Review of Reuven's OOP Python self pace course.
 Status: published
