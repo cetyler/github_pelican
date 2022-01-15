@@ -1,10 +1,10 @@
 Title: Calculator Project
-Date: 2021-11-15 14:30
+Date: 2022-01-15 16:30
 Category: Python
 Tags: python, project, library, package
 Author: Christopher
 Summary: Use a simple calculator project to document my Python workflow.
-Status: draft
+Status: published
 
 ## Overview
 
