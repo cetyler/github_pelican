@@ -1,10 +1,10 @@
 Title: Reuven Lerner's Weekly Python Exercise A3
-Date: 2022-01-08
+Date: 2022-01-14
 Category: Python
 Tags: training, Reuven Lerner, oop, python, review
 Author: Christopher
 Summary: Review of Reuven's Weekly Python Exercise A3.
-Status: draft
+Status: published
 
 ## Overview
 
@@ -12,7 +12,7 @@ I recently completed Reuven Lerner's
 [Weekly Python Exercise](https://store.lerner.co.il/wpe) A3 which focused on
 Object-oriented Python.
 I took this course around the same time as
-[Reuven's OOP self pace course]({filename}/2022-01-08-reuven_oop.md}).
+[Reuven's OOP self pace course]({filename}/python/2022-01-08-reuven_oop.md).
 I wasn't sure which course would click more with me, so I took both.
 
 Weekly Python Exercise (WPE) is a 15 week course where Reuven provides an
