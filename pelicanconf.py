@@ -90,7 +90,7 @@ COMMENTS_INTRO = "Leave your comments below."
 
 STATIC_PATHS = ["extra/robots.txt"]
 
-EXTRA_PATH_METADATA = {"extra/robots.txt": {"path": "/robots.txt"}}
+EXTRA_PATH_METADATA = {"extra/robots.txt": {"path": "output/robots.txt"}}
 
 # Legal
 SITE_LICENSE = """
