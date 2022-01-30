@@ -9,7 +9,8 @@ Status: published
 
 ## Overview
 
-From the [previous article]({filename}/python/2022-01-22-calculator_setup.md),
+From the 
+[previous article]({filename}/python/2022-01-22-calculator_project_setup.md),
 the plan is to create [calculator](https://github.com/cetyler/calculator) in
 order to update my Python workflow.
 This article will cover creating User Requirements, Design Requirements and a
@@ -17,7 +18,7 @@ Roadmap.
 
 ## Location of Documents
 
-While we do have Sphinx already set up, my opinion, these documents should be
+While we do have Sphinx already set up, in my opinion these documents should be
 related to what the calculator package does and how to use it.
 User Requirements and Design Requirements will be in Gitea/Github wiki.
 Both these documents are more for the developer than the user.
@@ -35,7 +36,7 @@ As you see, the
 [User Requirements](https://github.com/cetyler/calculator/wiki/User-Requirements)
 describes that this will be a simple program that can also be used as a
 library.
-There are a couple more requirements but for the most part, the describes what
+There are a couple more requirements but for the most part, this describes what
 I think the user would want.
 
 The goal is to create the requirements without thinking about how to implement.
@@ -57,8 +58,8 @@ shows that there will be two parts -- GUI and API.
 The GUI will be an interactive terminal interface similar to the Python shell
 or like
 [pgcli](https://www.pgcli.com/).
-Due to how simple this program is, don't really need to do a long description
-on how I plan on implementing.
+Due to how simple this program is, I don't really need to do a long description
+on how I plan on implementing the GUI.
 
 ### API
 
@@ -69,7 +70,7 @@ addition, subtracting, multiplication and division.
 ## Roadmap
 
 The Roadmap is a proposed feature release plan.
-For calculator, there is not much of a Roadmap.
+For this calculator, there is not much of a Roadmap.
 First need to create `Roadmap.rst` and create a simple release schedule.
 Will need to update `index.rst` to include the Roadmap.
 
@@ -90,6 +91,6 @@ Using a combination of the wiki and Sphinx, it keeps a good separation to what
 will stay with the repository and what could eventually go to
 [Read The Docs](https://readthedocs.org/) or an internal website.
 
-Prior to any writing any code, will first write tests to ensure that we will
+Prior to any writing any code, I will first write tests to ensure that we will
 comply with our User Requirements.
 The initial tests should cover the API as much as possible.
