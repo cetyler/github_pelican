@@ -19,7 +19,7 @@ This article will cover creating a Python package.
 
 Instead of using ``setup.py``, I will be using flit instead.
 While this project won't go on PyPi, it will go to my internal PyPi server.
-Will use [my article]({filename}/2021-04-17-create_package.md) to build my
+Will use [my article]({filename}/python/2021-04-17-create_package.md) to build my
 package.
 
 The main reason I want to continue to use flit is that it only creates and
