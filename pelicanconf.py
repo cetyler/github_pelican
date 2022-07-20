@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+from datetime import date
 
 AUTHOR = "Christopher Tyler"
 SITENAME = "Christopher Tyler R&D Test Engineer"
@@ -24,14 +25,26 @@ PLUGINS = [
     "sitemap",
     nb_markup,
     'tipue_search',
+    'series',
 ]
 
-DIRECT_TEMPLATES = ['search']
+DIRECT_TEMPLATES = [
+        'search', 
+        'index', 
+        'archives',
+        'authors',
+        #'feeds',
+        #'sitemap',
+        'tags',
+        'categories',
+        #'archives',
+        '404',
+        ]
 
 BIND = ""
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
+FEED_ALL_ATOM = None #'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
@@ -94,9 +107,11 @@ STATIC_PATHS = ["extra/robots.txt"]
 
 EXTRA_PATH_METADATA = {"extra/robots.txt": {"path": "output/robots.txt"}}
 
+SERIES_TITLE = "More in This Series"
+
 # Legal
-SITE_LICENSE = """
-&copy; Copyright 2022 by Christopher E. Tyler and licensed under a <a rel="license"
+SITE_LICENSE = f"""
+&copy; Copyright {date.today().year} by Christopher E. Tyler and licensed under a <a rel="license"
   href="http://creativecommons.org/licenses/by/4.0/">
   <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" />
   Creative Commons Attribution 4.0 International License</a>.
