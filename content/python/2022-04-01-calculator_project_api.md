@@ -6,6 +6,8 @@ Author: Christopher
 Summary: Implement API.
 comment_id: calculator_api
 Status: published
+series: Calculator Project
+series_index: 5
 
 ## Overview
 

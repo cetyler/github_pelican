@@ -6,6 +6,8 @@ Author: Christopher
 Summary: Creating tests for the API.
 comment_id: calculator_tests
 Status: published
+series: Calculator Project
+series_index: 4
 
 ## Overview
 

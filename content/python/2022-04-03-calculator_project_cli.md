@@ -6,6 +6,8 @@ Author: Christopher
 Summary: Implement CLI.
 comment_id: calculator_cli
 Status: published
+series: Calculator Project
+series_index: 6
 
 ## Overview
 

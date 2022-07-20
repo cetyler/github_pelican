@@ -6,6 +6,8 @@ Author: Christopher
 Summary: Finish up documentation.
 comment_id: calculator_docs
 Status: published
+series: Calculator Project
+series_index: 7
 
 ## Overview
 

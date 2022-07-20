@@ -6,6 +6,8 @@ Author: Christopher
 Summary: Build package with flit.
 comment_id: calculator_package
 Status: published
+series: Calculator Project
+series_index: 8
 
 ## Overview
 

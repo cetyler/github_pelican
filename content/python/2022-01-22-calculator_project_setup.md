@@ -6,6 +6,8 @@ Author: Christopher
 Summary: Initial setup of the calculator project.
 comment_id: calculator_setup
 Status: published
+series: Calculator Project
+series_index: 2
 
 ## Overview
 

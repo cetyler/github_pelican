@@ -6,6 +6,8 @@ Author: Christopher
 Summary: Creating the initial documentation of the calculator project.
 comment_id: calculator_requirements
 Status: published
+series: Calculator Project
+series_index: 3
 
 ## Overview
 

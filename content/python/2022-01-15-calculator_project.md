@@ -5,6 +5,8 @@ Tags: python, project, library, package
 Author: Christopher
 Summary: Use a simple calculator project to document my Python workflow.
 Status: published
+series: Calculator Project
+series_index: 1
 
 ## Overview
 
